@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\Tests\HasOffers;
+namespace BrianFaust\Tests\HasOffers\Affiliate;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
 

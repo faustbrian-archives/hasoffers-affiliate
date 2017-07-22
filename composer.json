@@ -1,7 +1,7 @@
 {
-    "name": "faustbrian/hasoffers-php-client",
-    "description": "A HasOffers Client for PHP",
-    "keywords": ["api", "http", "hasoffers", "hasoffers-php-client"],
+    "name": "faustbrian/hasoffers-affiliate-php-client",
+    "description": "A HasOffers Affiliate Client for PHP",
+    "keywords": ["api", "http", "hasoffers", "hasoffers-affiliate-php-client"],
     "license": "MIT",
     "authors": [{
         "name": "Brian Faust",
@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BrianFaust\\HasOffers\\": "src"
+            "BrianFaust\\HasOffers\\Affiliate\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BrianFaust\\Tests\\HasOffers\\": "tests"
+            "BrianFaust\\Tests\\HasOffers\\Affiliate\\": "tests"
         }
     },
     "config": {
