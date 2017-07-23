@@ -11,8 +11,8 @@
 
 namespace BrianFaust\HasOffers\Affiliate\API\Affiliate;
 
-use BrianFaust\HasOffers\Affiliate\API\AbstractAPI;
 use BrianFaust\Http\HttpResponse;
+use BrianFaust\HasOffers\Affiliate\API\AbstractAPI;
 
 class User extends AbstractAPI
 {

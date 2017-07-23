@@ -11,8 +11,8 @@
 
 namespace BrianFaust\HasOffers\Affiliate\API\Brand;
 
-use BrianFaust\HasOffers\Affiliate\API\AbstractAPI;
 use BrianFaust\Http\HttpResponse;
+use BrianFaust\HasOffers\Affiliate\API\AbstractAPI;
 
 class Information extends AbstractAPI
 {
