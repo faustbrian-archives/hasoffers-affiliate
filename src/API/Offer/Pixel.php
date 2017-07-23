@@ -11,8 +11,8 @@
 
 namespace BrianFaust\HasOffers\Affiliate\API\Offer;
 
-use BrianFaust\HasOffers\Affiliate\API\AbstractAPI;
 use BrianFaust\Http\HttpResponse;
+use BrianFaust\HasOffers\Affiliate\API\AbstractAPI;
 
 class Pixel extends AbstractAPI
 {

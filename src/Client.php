@@ -34,7 +34,7 @@ class Client
     public function __construct(string $networkId, string $key)
     {
         $this->networkId = $networkId;
-        $this->key       = $key;
+        $this->key = $key;
     }
 
     /**
