@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 namespace BrianFaust\HasOffers\Affiliate\API\Offer;
 
-use BrianFaust\Http\HttpResponse;
 use BrianFaust\HasOffers\Affiliate\API\AbstractAPI;
+use BrianFaust\Http\HttpResponse;
 
 class Pixel extends AbstractAPI
 {
