@@ -5,16 +5,16 @@ declare(strict_types=1);
 /*
  * This file is part of HasOffers PHP Client.
  *
- * (c) Brian Faust <hello@brianfaust.me>
+ * (c) Brian Faust <hello@basecode.sh>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\HasOffers\Affiliate\API\Affiliate;
+namespace Plients\HasOffers\Affiliate\API\Affiliate;
 
-use BrianFaust\HasOffers\Affiliate\API\AbstractAPI;
-use BrianFaust\Http\HttpResponse;
+use Plients\HasOffers\Affiliate\API\AbstractAPI;
+use Plients\Http\HttpResponse;
 
 class User extends AbstractAPI
 {

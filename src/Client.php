@@ -5,15 +5,15 @@ declare(strict_types=1);
 /*
  * This file is part of HasOffers PHP Client.
  *
- * (c) Brian Faust <hello@brianfaust.me>
+ * (c) Brian Faust <hello@basecode.sh>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\HasOffers\Affiliate;
+namespace Plients\HasOffers\Affiliate;
 
-use BrianFaust\Http\Http;
+use Plients\Http\Http;
 
 class Client
 {
@@ -44,13 +44,13 @@ class Client
      *
      * @param string $name
      *
-     * @return \BrianFaust\HasOffers\API\AbstractAPI
+     * @return \Plients\HasOffers\API\AbstractAPI
      */
     public function api(string $name): API\AbstractAPI
     {
         $client = Http::withBaseUri('https://api.hasoffers.com/APIv3/json');
 
-        $class = "BrianFaust\\HasOffers\\API\\{$name}";
+        $class = "Plients\\HasOffers\\API\\{$name}";
 
         return new $class($client);
     }
